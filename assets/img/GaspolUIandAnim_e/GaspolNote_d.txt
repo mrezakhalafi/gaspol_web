@@ -1,0 +1,8 @@
+1.  Ganti splashscreen dengan gaspol_anim_e.mp4
+2.  Ganti semua icon yg mengandung logo IMI & semua item DF Menu
+3.  Ganti FIA & FIM di DF Menu
+---
+
+Note:
+- Untuk sisi Web, pastikan semua icon/image dikonversi menjadi WebP
+

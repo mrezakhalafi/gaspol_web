@@ -1,0 +1,25 @@
+1.  Ganti splashscreen dengan gaspol_anim_d.mp4
+2.  Ganti semua icon (App, AllPosts, FB, FBIcon, TabIcon, DF Menu)
+3.  FB, FBIcon, TabIcon, DF Menu menggunakan warna biru (lihat standard_FBandTabICON.png) jika tidak ada Kategori Content yg dipilih/diklik
+4.  FB, FBIcon, TabIcon, DF Menu menggunakan warna hitam (lihat special_FBandTabICON.png) jika ada Kategori Content yg dipilih/diklik atau pada Seting dipilih Kategori tertentu.
+5.  Auto Hide/Show Tab Bar (seperti Xpora)
+6.  Tambahkan tab_selector dibelakang Tab Icon pada waktu ada Tab yg dipilih (seperti Xpora)
+7.  Perbesar icon IMI pada Timeline.
+8.  Tambahkan tombol "Klik Disini" pada Deskripsi Video no.1 pada Tab1, dan pada waktu diklik akan langsung membuka page DF Menu.
+9.  Ganti Content no.2 pada Tab1 dengan Content foto/image dari Bambang Soesatyo (ketua IMI)
+10. Warna pada DF Menu menyesuaikan sesuai point 3 & 4.
+11. Tambahkan animasi KlikDisiniGabungIMI.gif & PengurusanResmiKTAdll.gif secara bergantian di Tab1 & Tab2, dan jika diklik akan masuk ke DF Menu
+12. Untuk sisi Web, pastikan semua icon/image dikonversi menjadi WebP
+---
+
+Note:
+a). Pastikan ada Relationship antara ID KTA dengan UserID (NickName) pada Gaspol
+
+b) Buat Table Matriks Akses disisi BE sehingga kita bisa atur akses terhadap fitur UCPass (Chat, VoIP Call, Video Call, CC, Sharing Content, LS, Webminar) oleh User dengan Kategori Tertentu. Jadi misalnya
+- Secara default disisi Mobile semua fitur tidak bisa diakses, sampai Mobile berhasil membaca config dari BE. Ini untuk menghindari fraud!!! 
+- Like & Comment di Content bisa dilakukan oleh user yg sudah sign up
+- Chat, VoIP, Sharing Content bisa diakses jika User MINIMAL sudah punya KTA Mobility
+- Video Call, CC, bisa diakses jika User MINIMAL sudah punya KTA Pro
+- LS bisa diakses jika User MINIMAL sudah punya KTA Pro & KIS
+- Webminar bisa diakses jika User MINIMAL sudah punya IMI Club Registration
+
